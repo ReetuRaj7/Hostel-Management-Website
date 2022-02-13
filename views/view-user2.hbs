@@ -1,0 +1,38 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/home2">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">View User</li>
+  </ol>
+</nav>
+
+<div class="view-user2 p-5">
+  {{#each rows}}
+  <div class="row mb-5">
+    <div class="col text-center">
+      <h3>{{this.res_first_name}}</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Resident ID</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Resident City</th>
+            <th scope="col">Resident State</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">{{this.res_id}}</th>
+            <td>{{this.res_first_name}}</td>
+            <td>{{this.res_city}}</td>
+            <td>{{this.res_state}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {{/each}}
+</div>

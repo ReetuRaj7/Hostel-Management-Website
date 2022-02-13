@@ -1,0 +1,42 @@
+<!-- {{#if removedUser}}
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+  Data has been deleted.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{{/if}} -->
+
+<div class="row">
+  <div class="col-6">
+    <h1>Room Members</h1>
+  </div>
+  <!-- <div class="col-6 d-flex justify-content-end">
+    <a href="/adduser2" type="button" class="btn btn-primary align-self-center">+ add member</a>
+  </div> -->
+</div>
+
+<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Member ID</th>
+      <th scope="col">First Name</th>
+      <th scope="col" class="text-end">Room Number</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {{#each rows}}
+    <tr>
+      <th scope="row">{{this.mem_id}}</td>
+      <td>{{this.mem_first_name}}</td>
+      <td>{{this.mem_room_no}}</td>
+      <td class="text-end">
+        <a href="/viewuser3/{{this.mem_id}}" type="button" class="btn btn-light btn-small"><i class="bi bi-eye"></i> View</a>
+        <!-- <a href="/edituser2/{{this.res_id}}" type="button" class="btn btn-light btn-small"><i class="bi bi-pencil"></i>
+          Edit</a>
+        <a href="/home2/{{this.res_id}}" type="button" class="btn btn-light btn-small"><i class="bi bi-person-x"></i> Delete</a> -->
+      </td>
+    </tr>
+    {{/each}}
+
+  </tbody>
+</table>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Failure</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #FBF8F1;
+            background-image: -webkit-linear-gradient(65deg, #4FBDBA, 50%, #FAEEE7, 50%);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/fail" method="post">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Uh oh!</h1>
+                <p class="lead">There was an error signing you in, please try again!!!!</p>
+                <form action="/fail" method="post">
+                    <button class="btn btn-lg btn-warning" type="submit">Try Again</button>
+                </form>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
