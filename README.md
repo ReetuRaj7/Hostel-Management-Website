@@ -8,3 +8,10 @@ A few of them has been listed below->
 -> body-parser  
 -> path    
 and others too if you need them..
+
+
+To install use:  
+npm -i <package_name>  
+
+for example, if you want to install express  
+npm -i express
