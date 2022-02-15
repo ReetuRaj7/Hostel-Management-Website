@@ -17,12 +17,12 @@ npm -i <package_name>
 npm -i express
 
 
-####Signin-page-> This is the page you see when you log-in, a database is attached to the sign-in to contain all  
+#### Signin-page-> This is the page you see when you log-in, a database is attached to the sign-in to contain all  
 #### the details of the administrators.  
 ![Sign-in page](./screenshots/signin-page.png)  
 
 
-####Front page where we select the data we want to view  
+#### Front page where we select the data we want to view  
 ![Front-page](./screenshots/front-page.png)  
 
 
