@@ -37,5 +37,5 @@ npm -i express
 ![room-details](./screenshots/room-details.png)  
 
 
-#### We can add more details to every table whenever we want, we can consider this project as a skeleton  
+#### We can add more details to every table wherever we want, we can consider this project as a skeleton  
 #### for many other projects.
