@@ -11,10 +11,8 @@ and others too if you need them..
 
 
 #### To install use:  
-npm -i <package_name>  
-
-#### for example, if you want to install express  
-npm -i express
+npm -i  
+Just by using this command all the required libraries will be installed.  
 
 
 #### Signin-page-> This is the page you see when you log-in, a database is attached to the sign-in to contain all  
