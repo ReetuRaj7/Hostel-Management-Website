@@ -11,18 +11,16 @@ and others too if you need them..
 
 
 #### To install use:  
-npm -i <package_name>  
-
-#### for example, if you want to install express  
-npm -i express
+npm -i  
+Just by using this command all the required libraries will be installed.  
 
 
-####Signin-page-> This is the page you see when you log-in, a database is attached to the sign-in to contain all  
+#### Signin-page-> This is the page you see when you log-in, a database is attached to the sign-in to contain all  
 #### the details of the administrators.  
 ![Sign-in page](./screenshots/signin-page.png)  
 
 
-####Front page where we select the data we want to view  
+#### Front page where we select the data we want to view  
 ![Front-page](./screenshots/front-page.png)  
 
 
@@ -37,5 +35,5 @@ npm -i express
 ![room-details](./screenshots/room-details.png)  
 
 
-#### We can add more details to every table whenever we want, we can consider this project as a skeleton  
+#### We can add more details to every table wherever we want, we can consider this project as a skeleton  
 #### for many other projects.
